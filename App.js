@@ -54,10 +54,7 @@ render(){
     return(
       <View style={commonstyles.container}>
       <StatusBar barStyle="dark-content" hidden={true} backgroundColor={Header_text} />
-      <Text>
-        Revathi
-      </Text>
-      <MainStack/>
+            <MainStack/>
       </View>
     )
     }
